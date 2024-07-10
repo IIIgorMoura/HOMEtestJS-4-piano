@@ -40,84 +40,84 @@ document.addEventListener('keydown', function (event) {
         case 'q':case 'Q':
 
             const tecla1 = document.getElementById('tecla1');
-            tecla1.style.backgroundColor = 'gray';
+            tecla1.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'w':case 'W':
 
             const tecla2 = document.getElementById('tecla2');
-            tecla2.style.backgroundColor = 'gray';
+            tecla2.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'e':case 'E':
 
             const tecla3 = document.getElementById('tecla3');
-            tecla3.style.backgroundColor = 'gray';
+            tecla3.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'r':case 'R':
 
             const tecla4 = document.getElementById('tecla4');
-            tecla4.style.backgroundColor = 'gray';
+            tecla4.style.backgroundColor = '#c5c5c5';
 
             break;
         case 't':case 'T':
 
             const tecla5 = document.getElementById('tecla5');
-            tecla5.style.backgroundColor = 'gray';
+            tecla5.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'y':case 'Y':
             const tecla6 = document.getElementById('tecla6');
-            tecla6.style.backgroundColor = 'gray';
+            tecla6.style.backgroundColor = '#c5c5c5';
             break;
 
         case 'u':case 'U':
 
             const tecla7 = document.getElementById('tecla7');
-            tecla7.style.backgroundColor = 'gray';
+            tecla7.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'v':case 'V':
 
             const tecla8 = document.getElementById('tecla8');
-            tecla8.style.backgroundColor = 'gray';
+            tecla8.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'b':case 'B':
 
             const tecla9 = document.getElementById('tecla9');
-            tecla9.style.backgroundColor = 'gray';
+            tecla9.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'n':case 'N':
 
             const tecla10 = document.getElementById('tecla10');
-            tecla10.style.backgroundColor = 'gray';
+            tecla10.style.backgroundColor = '#c5c5c5';
 
             break;
         case 'm':case 'M':
 
             const tecla11 = document.getElementById('tecla11');
-            tecla11.style.backgroundColor = 'gray';
+            tecla11.style.backgroundColor = '#c5c5c5';
 
             break;
         case ',':
 
             const tecla12 = document.getElementById('tecla12');
-            tecla12.style.backgroundColor = 'gray';
+            tecla12.style.backgroundColor = '#c5c5c5';
 
             break;
         case '.':
 
             const tecla13 = document.getElementById('tecla13');
-            tecla13.style.backgroundColor = 'gray';
+            tecla13.style.backgroundColor = '#c5c5c5';
 
             break;
         case ';':
 
             const tecla14 = document.getElementById('tecla14');
-            tecla14.style.backgroundColor = 'gray';
+            tecla14.style.backgroundColor = '#c5c5c5';
 
             break;
 
@@ -127,70 +127,70 @@ document.addEventListener('keydown', function (event) {
         case '2':
 
             const teclaA = document.getElementById('teclaA');
-            teclaA.style.backgroundColor = 'black';
+            teclaA.style.backgroundColor = '#000';
 
             break;
 
         case '3':
 
             const teclaB = document.getElementById('teclaB');
-            teclaB.style.backgroundColor = 'black';
+            teclaB.style.backgroundColor = '#000';
 
             break;
 
         case '5':
 
             const teclaC = document.getElementById('teclaC');
-            teclaC.style.backgroundColor = 'black';
+            teclaC.style.backgroundColor = '#000';
 
             break;
 
         case '6':
 
             const teclaD = document.getElementById('teclaD');
-            teclaD.style.backgroundColor = 'black';
+            teclaD.style.backgroundColor = '#000';
 
             break;
 
         case '7':
 
             const teclaE = document.getElementById('teclaE');
-            teclaE.style.backgroundColor = 'black';
+            teclaE.style.backgroundColor = '#000';
 
             break;
 
         case 'G':case 'g':
 
             const teclaF = document.getElementById('teclaF');
-            teclaF.style.backgroundColor = 'black';
+            teclaF.style.backgroundColor = '#000';
 
             break;
 
         case 'H':case 'h':
 
             const teclaG = document.getElementById('teclaG');
-            teclaG.style.backgroundColor = 'black';
+            teclaG.style.backgroundColor = '#000';
 
             break;
 
         case 'K':case 'k':
 
             const teclaH = document.getElementById('teclaH');
-            teclaH.style.backgroundColor = 'black';
+            teclaH.style.backgroundColor = '#000';
 
             break;
 
         case 'L':case 'l':
 
             const teclaI = document.getElementById('teclaI');
-            teclaI.style.backgroundColor = 'black';
+            teclaI.style.backgroundColor = '#000';
 
             break;
 
         case 'Ç':case 'ç':
 
             const teclaJ = document.getElementById('teclaJ');
-            teclaJ.style.backgroundColor = 'black';
+            teclaJ.style.backgroundColor = '#000';
 
             break;
 
