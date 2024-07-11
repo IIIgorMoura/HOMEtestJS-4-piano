@@ -1,29 +1,29 @@
 // Sound teclas EACH
-const soundTecla1 = new Audio("./assets/tecla1.mp4");
-const soundTecla2 = new Audio("./tecla2.mp3");
-const soundTecla3 = new Audio("./tecla3.mp3");
-const soundTecla4 = new Audio("./tecla4.mp3");
-const soundTecla5 = new Audio("./tecla5.mp3");
-const soundTecla6 = new Audio("./tecla6.mp3");
-const soundTecla7 = new Audio("./tecla7.mp3");
-const soundTecla8 = new Audio("./tecla8.mp3");
-const soundTecla9 = new Audio("./tecla9.mp3");
-const soundTecla10 = new Audio("./tecla10.mp3");
-const soundTecla11 = new Audio("./tecla11.mp3");
-const soundTecla12 = new Audio("./tecla12.mp3");
-const soundTecla13 = new Audio("./tecla13.mp3");
-const soundTecla14 = new Audio("./tecla14.mp3");
+const soundTecla1 = new Audio("./assets/tecla1.wav");
+const soundTecla2 = new Audio("./assets/tecla2.wav");
+const soundTecla3 = new Audio("./assets/tecla3.wav");
+const soundTecla4 = new Audio("./assets/tecla4.wav");
+const soundTecla5 = new Audio("./assets/tecla5.wav");
+const soundTecla6 = new Audio("./assets/tecla6.wav");
+const soundTecla7 = new Audio("./assets/tecla7.wav");
+const soundTecla8 = new Audio("./assets/tecla8.wav");
+const soundTecla9 = new Audio("./assets/tecla9.wav");
+const soundTecla10 = new Audio("./assets/tecla10.wav");
+const soundTecla11 = new Audio("./assets/tecla11.wav");
+const soundTecla12 = new Audio("./assets/tecla12.wav");
+const soundTecla13 = new Audio("./assets/tecla13.wav");
+const soundTecla14 = new Audio("./assets/tecla14.wav");
 
-const soundTeclaA = new Audio("./teclaA.mp3");
-const soundTeclaB = new Audio("./teclaB.mp3");
-const soundTeclaC = new Audio("./teclaC.mp3");
-const soundTeclaD = new Audio("./teclaD.mp3");
-const soundTeclaE = new Audio("./teclaE.mp3");
-const soundTeclaF = new Audio("./teclaF.mp3");
-const soundTeclaG = new Audio("./teclaG.mp3");
-const soundTeclaH = new Audio("./teclaH.mp3");
-const soundTeclaI = new Audio("./teclaI.mp3");
-const soundTeclaJ = new Audio("./teclaJ.mp3");
+const soundTeclaA = new Audio("./assets/teclaA.wav");
+const soundTeclaB = new Audio("./assets/teclaB.wav");
+const soundTeclaC = new Audio("./assets/teclaC.wav");
+const soundTeclaD = new Audio("./assets/teclaD.wav");
+const soundTeclaE = new Audio("./assets/teclaE.wav");
+const soundTeclaF = new Audio("./assets/teclaF.wav");
+const soundTeclaG = new Audio("./assets/teclaG.wav");
+const soundTeclaH = new Audio("./assets/teclaH.wav");
+const soundTeclaI = new Audio("./assets/teclaI.wav");
+const soundTeclaJ = new Audio("./assets/teclaJ.wav");
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -65,7 +65,7 @@ document.addEventListener('keydown', function (event) {
     // tecla pressionada ID tecla do piano
     switch (teclaPressionada) {
         // TECLAS BRANCAS
-        case 'q':case 'Q':
+        case 'q': case 'Q':
 
             const tecla1 = document.getElementById('tecla1');
             tecla1.style.backgroundColor = '#c5c5c5';
@@ -77,7 +77,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'w':case 'W':
+        case 'w': case 'W':
 
             const tecla2 = document.getElementById('tecla2');
             tecla2.style.backgroundColor = '#c5c5c5';
@@ -89,19 +89,19 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'e':case 'E':
+        case 'e': case 'E':
 
             const tecla3 = document.getElementById('tecla3');
             tecla3.style.backgroundColor = '#c5c5c5';
+
             if (soundTecla3) {
                 if (soundTecla3.paused === false) {
                     soundTecla3.currentTime = 0;
                 }
                 soundTecla3.play();
             }
-
             break;
-        case 'r':case 'R':
+        case 'r': case 'R':
 
             const tecla4 = document.getElementById('tecla4');
             tecla4.style.backgroundColor = '#c5c5c5';
@@ -113,7 +113,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 't':case 'T':
+        case 't': case 'T':
 
             const tecla5 = document.getElementById('tecla5');
             tecla5.style.backgroundColor = '#c5c5c5';
@@ -125,7 +125,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'y':case 'Y':
+        case 'y': case 'Y':
             const tecla6 = document.getElementById('tecla6');
             tecla6.style.backgroundColor = '#c5c5c5';
             if (soundTecla6) {
@@ -137,7 +137,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'u':case 'U':
+        case 'u': case 'U':
 
             const tecla7 = document.getElementById('tecla7');
             tecla7.style.backgroundColor = '#c5c5c5';
@@ -149,7 +149,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'v':case 'V':
+        case 'v': case 'V':
 
             const tecla8 = document.getElementById('tecla8');
             tecla8.style.backgroundColor = '#c5c5c5';
@@ -161,7 +161,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'b':case 'B':
+        case 'b': case 'B':
 
             const tecla9 = document.getElementById('tecla9');
             tecla9.style.backgroundColor = '#c5c5c5';
@@ -173,7 +173,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'n':case 'N':
+        case 'n': case 'N':
 
             const tecla10 = document.getElementById('tecla10');
             tecla10.style.backgroundColor = '#c5c5c5';
@@ -185,7 +185,7 @@ document.addEventListener('keydown', function (event) {
             }
 
             break;
-        case 'm':case 'M':
+        case 'm': case 'M':
 
             const tecla11 = document.getElementById('tecla11');
             tecla11.style.backgroundColor = '#c5c5c5';
@@ -302,7 +302,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'G':case 'g':
+        case 'G': case 'g':
 
             const teclaF = document.getElementById('teclaF');
             teclaF.style.backgroundColor = '#000';
@@ -315,7 +315,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'H':case 'h':
+        case 'H': case 'h':
 
             const teclaG = document.getElementById('teclaG');
             teclaG.style.backgroundColor = '#000';
@@ -328,7 +328,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'K':case 'k':
+        case 'K': case 'k':
 
             const teclaH = document.getElementById('teclaH');
             teclaH.style.backgroundColor = '#000';
@@ -341,7 +341,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'L':case 'l':
+        case 'L': case 'l':
 
             const teclaI = document.getElementById('teclaI');
             teclaI.style.backgroundColor = '#000';
@@ -354,7 +354,7 @@ document.addEventListener('keydown', function (event) {
 
             break;
 
-        case 'Ç':case 'ç':
+        case 'Ç': case 'ç':
 
             const teclaJ = document.getElementById('teclaJ');
             teclaJ.style.backgroundColor = '#000';
@@ -377,67 +377,67 @@ document.addEventListener('keyup', function (event) {
 
     // volta cor padrão da tecla
     switch (teclaSolta) {
-        case 'q':case 'Q':
+        case 'q': case 'Q':
 
             const tecla1 = document.getElementById('tecla1');
             tecla1.style.backgroundColor = '';
 
             break;
-        case 'w':case 'W':
+        case 'w': case 'W':
 
             const tecla2 = document.getElementById('tecla2');
             tecla2.style.backgroundColor = '';
 
             break;
-        case 'e':case 'E':
+        case 'e': case 'E':
 
             const tecla3 = document.getElementById('tecla3');
             tecla3.style.backgroundColor = '';
 
             break;
-        case 'r':case 'R':
+        case 'r': case 'R':
 
             const tecla4 = document.getElementById('tecla4');
             tecla4.style.backgroundColor = '';
 
             break;
-        case 't':case 'T':
+        case 't': case 'T':
 
             const tecla5 = document.getElementById('tecla5');
             tecla5.style.backgroundColor = '';
 
             break;
-        case 'y':case 'Y':
+        case 'y': case 'Y':
 
             const tecla6 = document.getElementById('tecla6');
             tecla6.style.backgroundColor = '';
 
             break;
-        case 'u':case 'U':
+        case 'u': case 'U':
 
             const tecla7 = document.getElementById('tecla7');
             tecla7.style.backgroundColor = '';
 
             break;
-        case 'v':case 'V':
+        case 'v': case 'V':
 
             const tecla8 = document.getElementById('tecla8');
             tecla8.style.backgroundColor = '';
 
             break;
-        case 'b':case 'B':
+        case 'b': case 'B':
 
             const tecla9 = document.getElementById('tecla9');
             tecla9.style.backgroundColor = '';
 
             break;
-        case 'n':case 'N':
+        case 'n': case 'N':
 
             const tecla10 = document.getElementById('tecla10');
             tecla10.style.backgroundColor = '';
 
             break;
-        case 'm':case 'M':
+        case 'm': case 'M':
 
             const tecla11 = document.getElementById('tecla11');
             tecla11.style.backgroundColor = '';
@@ -500,35 +500,35 @@ document.addEventListener('keyup', function (event) {
 
             break;
 
-        case 'G':case 'g':
+        case 'G': case 'g':
 
             const teclaF = document.getElementById('teclaF');
             teclaF.style.backgroundColor = '';
 
             break;
 
-        case 'H':case 'h':
+        case 'H': case 'h':
 
             const teclaG = document.getElementById('teclaG');
             teclaG.style.backgroundColor = '';
 
             break;
 
-        case 'K':case 'k':
+        case 'K': case 'k':
 
             const teclaH = document.getElementById('teclaH');
             teclaH.style.backgroundColor = '';
 
             break;
 
-        case 'L':case 'l':
+        case 'L': case 'l':
 
             const teclaI = document.getElementById('teclaI');
             teclaI.style.backgroundColor = '';
 
             break;
 
-        case 'Ç':case 'ç':
+        case 'Ç': case 'ç':
 
             const teclaJ = document.getElementById('teclaJ');
             teclaJ.style.backgroundColor = '';
